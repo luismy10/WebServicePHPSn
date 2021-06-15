@@ -25,13 +25,13 @@
     border-radius: 5px 5px 0 0;
     color: #020203;
     background-color: #fff;
-    font-family: 'SourceSansPro-SemiBold', Helvetica, Arial, sans-serif;
+    font-family: inherit;
     font-size: 1.6em;
     font-weight: 700;
 }
 
 .alertify .ajs-body {
-    font-family: 'SourceSansPro-SemiBold', Helvetica, Arial, sans-serif;
+    font-family: inherit;
     color: #020203;
 }
 

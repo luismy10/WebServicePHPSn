@@ -138,8 +138,7 @@ if (!is_array($detalleventa)) {
                 "accept" => $cdr->isAccepted(),
                 "id" => $cdr->getId(),
                 "code" => $cdr->getCode(),
-                "description" => $cdr->getDescription(),
-                "dd" => $util
+                "description" => $cdr->getDescription()
             ));
         } else {
             VentasADO::CambiarEstadoSunatVenta($idventa, $cdr->getCode(), $cdr->getDescription(), $hash, $see->getFactory()->getLastXml());

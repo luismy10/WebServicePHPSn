@@ -1,7 +1,6 @@
 'use strict'
 
-$(document).ready(function() {
-
+$(document).ready(function () {
     loadNotificaciones();
 });
 
@@ -14,10 +13,10 @@ function loadNotificaciones() {
             "type": "listarNotificaciones",
 
         },
-        beforeSend: function() {
+        beforeSend: function () {
             $("#divNotificaciones").empty();
         },
-        success: function(result) {
+        success: function (result) {
             if (result.estado == 1) {
                 let notificaciones = result.data;
                 if (notificaciones.length == 0) {
@@ -45,7 +44,7 @@ function loadNotificaciones() {
                     '</a>');
             }
         },
-        error: function(error) {
+        error: function (error) {
             console.log(error)
         }
     });

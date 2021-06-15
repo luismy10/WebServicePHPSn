@@ -584,7 +584,7 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
     color: #020203;
     font-size: 17px;
     text-align: center;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: none;
     position: relative;
     margin: 0 0 .4em;
@@ -621,7 +621,7 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
     background-color: transparent !important;
     color: transparent;
     cursor: default;
-    border-radius: 100%;
+    border-radius: 0%;
     -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
     animation: rotate-loading 1.5s linear 0s infinite normal;
     -webkit-user-select: none;
@@ -646,14 +646,14 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
     -webkit-box-shadow: 1px 1px 1px #fff;
     box-shadow: 1px 1px 1px #fff;
     border-right-color: transparent;
-    border-radius: 50%;
+    border-radius: 0%;
     -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
     animation: rotate-loading 1.5s linear 0s infinite normal;
 }
 
 .swal2-popup .swal2-styled {
     border: 0;
-    border-radius: 3px;
+    border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: #fff;
@@ -667,8 +667,8 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
 
 .swal2-popup .swal2-styled:focus {
     outline: none;
-    -webkit-box-shadow: 0 0 0 0px #fff, 0 0 0 3px rgba(0, 166, 255, 0.8);
-    box-shadow: 0 0 0 0px #fff, 0 0 0 3px rgba(0, 166, 255, 0.8);
+    -webkit-box-shadow: 0 0 0 0px #fff, 0 0 0 2px rgba(0, 166, 255, 0.8);
+    box-shadow: 0 0 0 0px #fff, 0 0 0 2px rgba(0, 166, 255, 0.8);
 }
 
 .swal2-popup .swal2-image {
@@ -711,7 +711,7 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
 .swal2-popup .swal2-content {
     font-size: 15px;
     text-align: center;
-    font-weight: 300;
+    font-weight: normal;
     position: relative;
     float: none;
     margin: 0;
@@ -737,8 +737,8 @@ body.swal2-no-backdrop>.swal2-shown.swal2-bottom-right {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 18px;
-    border-radius: 3px;
-    border: 1px solid #d9d9d9;
+    border-radius: 0px;
+    border: 1px solid #999999;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
     -webkit-transition: border-color .3s, -webkit-box-shadow .3s;
